@@ -7,36 +7,61 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <nav class="level">
-      <p class="level-item has-text-centered">
-        <a href="https://eric.gt/index.html" class="link is-info">Home</a>
-      </p>
-      <p class="level-item has-text-centered">
-        <a href="https://eric.gt/projects.html" class="link is-info">Projects</a>
-      </p>
-      <p class="level-item has-text-centered is-size-1 has-text-weight-bold">
-        <a href="https://eric.gt" class="link has-text-black">eric.gt</a>
-      </p>
-      <p class="level-item has-text-centered">
-        <a href="https://eric.gt/resume.html" class="link is-info">Resume</a>
-      </p>
-      <p class="level-item has-text-centered">
-        <a href="https://eric.gt/contact.html" class="link is-info">Contact</a>
-      </p>
+    <nav class="navbar role="navigation" aria-label="main navigation"">
+      <div class="navbar-brand">
+        <a href="" class='navbar-item'></a>
+        <a role="button" class ="navbar-burger" aria-label="menu" aria-expanded="false" data-target="main-nav">
+          <span aria-hidden='true'>
+          </span>
+          <span aria-hidden='true'>
+          </span>
+          <span aria-hidden='true'>
+          </span>
+          <span aria-hidden='true'>
+          </span>
+        </a>
+      </div>
+      <div class ="navbar-menu" id="main-nav">
+        <div class="navbar-start">
+          <a href="https://eric.gt/index.html" class="navbar-item is-info">Home</a>
+          <a href="https://eric.gt/projects.html" class="navbar-item is-info">Projects</a>
+          <a href="https://eric.gt/resume.html" class="navbar-item is-info">Resume</a>
+          <a href="https://eric.gt/contact.html" class="navbar-item is-info">Contact</a>
+        </div>
+        <div class="navbar-end"></div>
+      </div>
     </nav>
+    <div class="columns">
+      <div class="column"></div>
+      <div class="column has-text-centered">
+        <a href="https://eric.gt" class=" has-text-centered has-text-black"><h1 class="title">eric.gt</h1></a>
+      </div>
+      <div class="column"></div>
+    </div>
     <section class="hero is-info">
       <div class="hero-body">
         <h1 class="title">
           Eric Glickman-Tondreau
         </h1>
         <p class="subtitle">
-          Software Engineering Generalist with a passion for robust extensible systems at scale.
+          Software Engineering Generalist doing Good Things with Good Code.
         </p>
       </div>
     </section>
     <section class="section">
-      <div class="content has-text-centered">
-        <p>I'll think of something to put here...eventually</p>
+      <div class ="columns">
+        <div class ="column">
+          <figure class="image is-3by4">
+            <img src='./static/images/headshot.jpg'>
+          </figure>
+        </div>
+        <div class ="column is-8">
+            <p class="title">Hi, I'm Eric.</p>
+          <div class="has-text-centered">
+            <p>I'm a Software Developer at <a href='https://curiouslearning.org'>Curious Learning</a> where I work with my colleagues to make reading a reality for children everywhere. We're a small team, so I wear many different hats; one day I might be programming a game that measures children's early cognitive abilities, the next I might be engineering a <a href='https://followthelearners.curiouslearning.org'>web application</a> that monitors the growth of hundreds of thousands of learners around the world. I work hard to make things that feel intimate and personal while functioning robustly on a global scale. Take a look at some of my projects and feel free to send me a message if you like my work and want to know more!</p>
+          </div>
+        </div>
+        <div class ="column"></div>
       </div>
     </section>
   </body>
