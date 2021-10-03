@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Projects</title>
+    <!--- <script type="text/javascript" src="static/js/projects.js"></script> -->
+    <link rel="stylesheet" href="../../style.css">
+  </head>
+  <body>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <a href="" class='navbar-item'></a>
+        <a role="button" class ="navbar-burger" aria-label="menu" aria-expanded="false" data-target="main-nav">
+          <span aria-hidden='true'>
+          </span>
+          <span aria-hidden='true'>
+          </span>
+          <span aria-hidden='true'>
+          </span>
+          <span aria-hidden='true'>
+          </span>
+        </a>
+      </div>
+      <div class="navbar-menu" id="main-nav">
+        <div class="navbar-start">
+          <a href="/index.html" class="navbar-item is-info">Home</a>
+          <a href="/static/html/about.html" class="navbar-item is-info">About Me</a>
+          <a href="/static/html/projects.html" class="navbar-item is-info">Projects</a>
+          <a href="/static/html/contact.html" class="navbar-item is-info">Contact</a>
+        </div>
+        <div class="navbar-end"></div>
+      </div>
+    </nav>
+    <h1 class="title has-text-centered"><strong class="has-text-bold ">Featured Projects</strong></h1>
+    <section class="section" id="projectsSection">
+      <div class="tile is-ancestor">
+        <div class="tile is-parent is-vertical">
+          <div class="tile is-child"><div class="box">
+            <p class="title is-4">Follow The Learners</p>
+            <img class="block"src="/static/images/followthelearners.png">
+            <p class="block"><a href="https://followthelearners.curiouslearning.org">Follow the Learners</a> is a web application that allows donors to track the impact of their donations to Curious Learning's distrubition campaigns. By making a donation a donor will be able to see a representation of the users they helped aqcquire through ad-spend in the areas of the world they designated. I designed and developed the Cloud Firestore database that stores users and maps them to donations, as well as the logic that integrates the many moving parts of the app like donation logging through Stripe and user tracking with Firebase Analytics and Google Bigquery.</p>
+          </div></div>
+          <div class="tile is-child"><div class="box">
+            <p class="title is-4">Feed The Monster Localization Project</p>
+            <img class="block" src="/static/images/ftm-screen.png">
+            <p class="block">Feed the Monster was orginially an Arabic early reading app developed by <a href="https://www.peaceinsight.org/en/organisations/cet/?location=israel-palestine&theme">CET</a> for the Norwegian Agency for Development Cooperation (<a href="https://www.norad.no/en/front/">NORAD</a>) as part of a call for open source educational apps to assist Syrian refugees. UNESCO and the team at Curious Learning saw the potential of the app's simple yet effective design and I worked quickly to develop a localization pipeline. We did not simply translate the app's content to different languages; We contracted native speakers and educators of each language to develop a scope and sequence of what children need to learn, and when. I wrote a script to use this information to generate game data for each language and writing system, and our visual artists re-generated the UI according to the original specifications. Diving into the code to discover the text and audio rendering pipelines was an exciting challenge, and after our initial successes we knew we were onto something big. I have sinced handed off the localization project to other developers, and recently we passed the milestone of over 50 different languages published on the Google Play Store.</p>
+          </div></div>
+        </div>
+        <div class="tile is-parent is-vertical">
+          <div class="tile is-child"><div class="box">
+            <p class="title is-4">appRISE Cognitive Assessment App</p>
+            <img class="block" src="/static/images/apprise.png">
+            <p class="block">appRISE is a game-based assessment of English pre-literacy skills and early Executive Functions benchmarks. We developed it for Android using Unity3d. I was one of the lead developers on this project and I worked on every aspect of the application from the animations to the asessment logic to the data reporting. appRISE was the culmination of 3 years of R&D that started at the beginning of my time with Curious Learning, and I am particularly proud of our achievements in making one of the first evidence based assessments that require little-to-no proctor oversight for a child to successfully complete it. Visit <a href="https://curiouslearning.org/apprise">https://curiouslearning.org/apprise</a> to learn more about this remarkable project and the brilliant minds I had the honor of working alongside in its creation.</p>
+          </div></div>
+          <div class="tile is-child"><div class="box">
+            <p class="title is-4">Curious Reader Rapid Content Creator</p>
+            <img class="block" src="/static/images/rcc.webp">
+            <p class="block">One of the most important practices for any emerging reader is...reading! Reading new words in context in age and level appropriate texts helps children understand the grammatical rules around when words are used and helps them take those first steps towards "really reading". The Curious Reader app and the Rapid Content Creator were projects I worked on that aimed to create a highly immersive and interactive platform for these connected texts. Authors can use the platform to tell a story at different reading levels, anywhere from "See Spot Run" simplicity to full, grammatically complex sentences. In addition, a robust animation event system connects written words to pictures, animations and audio files to help reinforce the lexical and semantic connections necessary for reading mastery.</p><p class="block">I developed a Unity Editor extension to expose the text/audio/animation connection functionality, and worked with a senior developer and junior colleague to implement the player as an Android app.</p>
+          </div></div>
+        </div>
+      </div>
+    </section>
+  </body>
+  <footer>
+    <div class="content has-text-centered">
+      <p>
+        Like what you see? Check out the source code on <a href="https://github.com/eric-gt/eric.gt">Github</a>!
+      </p>
+    </div>
+  </footer>
+</html>
